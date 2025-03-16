@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Task2/style.scss">
+</head>
+    <body>
+        <header class="header">
+            <nav class="navigation">
+                <div class="navigation__contLeftSide1">
+                    <button><img src="img/mainPage/page%201/icon1.svg" alt="icon1"></button>
+                </div>
+                <div class="navigation__contLeftSide2">
+                    <button><img src="img/mainPage/page%201/icon2.svg" alt="icon2"></button>
+                </div>
+                <div class="navigation__contRightSide1">
+                    <input id="check" type="checkbox">
+                    <label for="check"><img style="cursor: pointer" src="../Homework/img/mainPage/page 1/icon3.svg" alt="menuSite"></label>
+                    <div class="menuSite">
+                        <h2 class="menuSite__heading">MENU</h2>
+                        <h3 class="menuSite__subheading">MAN</h3>
+                        <ul class="menuSite__ul">
+                            <li class="menuSite__link"><a href="#">Accessories</a></li>
+                            <li class="menuSite__link"><a href="#">Bags</a></li>
+                            <li class="menuSite__link"><a href="#">Denim</a></li>
+                            <li class="menuSite__link"><a href="#">T-shirts</a></li>
+                        </ul>
+                        <h3 class="menuSite__subheading">WOMAN</h3>
+                        <ul class="menuSite__ul">
+                            <li class="menuSite__link"><a href="#">Accessories</a></li>
+                            <li class="menuSite__link"><a href="#">Bags</a></li>
+                            <li class="menuSite__link"><a href="#">Denim</a></li>
+                            <li class="menuSite__link"><a href="#">T-shirts</a></li>
+                        </ul>
+                        <h3 class="menuSite__subheading">KIDS</h3>
+                        <ul class="menuSite__ul">
+                            <li class="menuSite__link"><a href="#">Accessories</a></li>
+                            <li class="menuSite__link"><a href="#">Bags</a></li>
+                            <li class="menuSite__link"><a href="#">Denim</a></li>
+                            <li class="menuSite__link"><a href="#">T-shirts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navigation__contRightSide2">
+                    <button><img src="img/mainPage/page%201/icon4.svg" alt="icon4"></button>
+                </div>
+                <div id="cart-modal" class="navigation__contRightSide3">
+                    <button><img src="img/mainPage/page%201/icon5.svg" alt="icon5">
+                        <div class="cart-modal-content">
+                            <span class="close-modal">&times;</span>
+                            <ul class="cart">
+                            </ul>
+                        </div></button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container mainCover">
+                <div class="mainContent_leftSide mainCover__leftSide">
+                    <img src="img/mainPage/page%201/men.png" alt="men">
+                </div>
+                <div class="mainContent_rightSide mainCover__rightSide">
+                    <h2>THE BRAND</h2>
+                    <h1> OF LUXERIOUS FASHION</h1>
+                </div>
+            </div>
+            <div class="category container">
+                <section class="categoryButton">
+                    <div class="categoryButton__smallImg">
+                        <button class="item"><img src="img/mainPage/page%202/forWomen.png" alt="women">
+                            <div class="text">30% OFF FOR WOMEN</div></button>
+                        <button class="item"><img src="img/mainPage/page%202/forMen.png" alt="men">
+                            <div class="text">HOT DEAL FOR MEN</div></button>
+                        <button class="item"><img src="img/mainPage/page%202/forKids.png" alt="kids">
+                            <div class="text">NEW ARRIVALS FOR KIDS</div></button>
+                    </div>
+                    <div class="categoryButton__bigImg">
+                        <button class="item"><img src="img/mainPage/page%202/accesories.png" alt="accesories">
+                            <div class="text">LUXIROUS & TRENDY ACCESORIES</div></button>
+                    </div>
+                </section>
+                <div class="headingCardsText">
+                    <h1>Fetured Items</h1>
+                    <p>Shop for items based on what we featured in this week</p>
+                </div>
+                <div class="cardListMain">
+                    <div class="cardList"></div>
+                </div>
+            </div>
+            <div class="infoPart container">
+                <section class="infoPart__icons">
+                    <div class="infoPart__icons__icon1">
+                        <img src="img/mainPage/page%204/Icon1.svg" alt="icon1">
+                        <h1>Free Delivery</h1>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </div>
+                    <div class="infoPart__icons__icon2">
+                        <img src="img/mainPage/page%204/Icon2.svg" alt="icon2">
+                        <h1>Sales & discounts</h1>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </div>
+                    <div class="infoPart__icons__icon3">
+                        <img src="img/mainPage/page%204/Icon3.svg" alt="icon3">
+                        <h1>Quality assurance</h1>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <section>
+                    <div class="preFinalPart container">
+                        <div class="contentLeftSide preFinalPart__leftSide">
+                            <img src="img/mainPage/page%205/avatar.png" alt="avatar">
+                            <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+                        </div>
+                        <div class="contentRightSide preFinalPart__rightSide"><h2>SUBSCRIBE FOR OUR NEWSLETTER AND PROMOTION</h2>
+                            <form action="#" method="post">
+                                <input type="email" id="email" name="email" placeholder="   Enter Your Email" required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section>
+                    <div class="finalPart container">
+                        <p>© 2022  Brand  All Rights Reserved.</p>
+                        <button class="finalPart__icon1"><img src="img/mainPage/page%205/icon1.svg" alt="icon1"></button>
+                        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon2.svg" alt="icon2"></button>
+                        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon3.svg" alt="icon3"></button>
+                        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon4.svg" alt="icon4"></button>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+        <script src="./data.js"></script>
+        <script src="productScript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="../Task2/style.scss">
+</head>
+<body>
+<header class="header">
+  <nav class="navigation">
+    <div class="navigation__contLeftSide1">
+      <button><img src="img/mainPage/page%201/icon1.svg" alt="icon1"></button>
+    </div>
+    <div class="navigation__contLeftSide2">
+      <button><img src="img/mainPage/page%201/icon2.svg" alt="icon2"></button>
+    </div>
+    <div class="navigation__contRightSide1">
+      <input id="check" type="checkbox">
+      <label style="cursor: pointer" for="check"><img src="../Homework/img/mainPage/page 1/icon3.svg" alt="menuSite"></label>
+      <div class="menuSite">
+        <h2 class="menuSite__heading">MENU</h2>
+        <h3 class="menuSite__subheading">MAN</h3>
+        <ul class="menuSite__ul">
+          <li class="menuSite__link"><a href="#">Accessories</a></li>
+          <li class="menuSite__link"><a href="#">Bags</a></li>
+          <li class="menuSite__link"><a href="#">Denim</a></li>
+          <li class="menuSite__link"><a href="#">T-shirts</a></li>
+        </ul>
+        <h3 class="menuSite__subheading">WOMAN</h3>
+        <ul class="menuSite__ul">
+          <li class="menuSite__link"><a href="#">Accessories</a></li>
+          <li class="menuSite__link"><a href="#">Bags</a></li>
+          <li class="menuSite__link"><a href="#">Denim</a></li>
+          <li class="menuSite__link"><a href="#">T-shirts</a></li>
+        </ul>
+        <h3 class="menuSite__subheading">KIDS</h3>
+        <ul class="menuSite__ul">
+          <li class="menuSite__link"><a href="#">Accessories</a></li>
+          <li class="menuSite__link"><a href="#">Bags</a></li>
+          <li class="menuSite__link"><a href="#">Denim</a></li>
+          <li class="menuSite__link"><a href="#">T-shirts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="navigation__contRightSide2">
+      <button><img src="img/mainPage/page%201/icon4.svg" alt="icon4"></button>
+    </div>
+    <div id="cart-modal" class="navigation__contRightSide3">
+      <button><img src="img/mainPage/page%201/icon5.svg" alt="icon5">
+        <div class="cart-modal-content">
+          <span class="close-modal">&times;</span>
+          <ul class="cart">
+          </ul>
+        </div></button>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="container capBasketRegistration">
+    <h1>SHOPPING CART</h1>
+  </div>
+  <div class="basket container">
+    <div class="basket__up">
+      <div class="basket__up__leftSide">
+        <div class="cartBasket">
+          <div class="cartBasket__cart1">
+            <div class="cartBasket__cart1__img"><img src="./img/mainPage/page 3/items3.png"></div>
+            <div class="cartBasket__cart1__text">
+              <h1>MANGO PEOPLE T-SHIRT</h1>
+              <p>Price: $300</p>
+              <p>Color:Red</p>
+              <p>Size: XL</p>
+              <p>Quantity: <input type="number"></p>
+            </div>
+            <div class="cartBasket__cart1__close">
+              <button>X</button>
+            </div>
+          </div>
+          <div class="cartBasket__cart2">
+            <div class="cartBasket__cart2__img"><img src="./img/mainPage/page 3/items1.png"></div>
+            <div class="cartBasket__cart2__text">
+              <h1>MANGO PEOPLE T-SHIRT</h1>
+              <p>Price: $300</p>
+              <p>Color:Red</p>
+              <p>Size: XL</p>
+              <p>Quantity: <input type="number"></p>
+            </div>
+            <div class="cartBasket__cart2__close">
+              <button>X</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="basket__up__rightSide">
+        <div class="menuBasket">
+          <div class="menuBasket__address">
+            <h2>SHIPPING ADDRESS</h2>
+            <form><input type="text" placeholder="Country"></form>
+            <form><input type="text" placeholder="State"></form>
+            <form><input type="text" placeholder="Postcode / Zip"></form>
+            <button>GET A QUOTE</button>
+          </div>
+          <div class="menuBasket__checkout">
+            <h2>SUB TOTAL $900</h2>
+            <h1 class="basketTotalSum">GRAND TOTAL $900</h1>
+            <button>PROCEED TO CHECKOUT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="basket__down">
+      <button>CLEAR SHOPPING CART</button>
+      <button>CONTINUE SHOPPING</button>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div>
+    <section>
+      <div class="preFinalPart container">
+        <div class="contentLeftSide preFinalPart__leftSide">
+          <img src="img/mainPage/page%205/avatar.png" alt="avatar">
+          <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+        </div>
+        <div class="contentRightSide preFinalPart__rightSide"><h2>SUBSCRIBE FOR OUR NEWSLETTER AND PROMOTION</h2>
+          <form action="#" method="post">
+            <input type="email" id="email" name="email" placeholder="   Enter Your Email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div>
+    <section>
+      <div class="finalPart container">
+        <p>© 2022  Brand  All Rights Reserved.</p>
+        <button class="finalPart__icon1"><img src="img/mainPage/page%205/icon1.svg" alt="icon1"></button>
+        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon2.svg" alt="icon2"></button>
+        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon3.svg" alt="icon3"></button>
+        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon4.svg" alt="icon4"></button>
+      </div>
+    </section>
+  </div>
+</footer>
+<script src="./script.js"></script>
+<script src="./data.js"></script>
+<script src="productScript.js"></script>
+</body>
+</html>

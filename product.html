@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Task2/style.scss">
+</head>
+    <body>
+        <header class="header">
+            <nav class="navigation">
+                <div class="navigation__contLeftSide1">
+                    <button><img src="img/mainPage/page%201/icon1.svg" alt="icon1"></button>
+                </div>
+                <div class="navigation__contLeftSide2">
+                    <button><img src="img/mainPage/page%201/icon2.svg" alt="icon2"></button>
+                </div>
+                <div class="navigation__contRightSide1">
+                    <input id="check" type="checkbox">
+                    <label for="check"><img src="../Homework/img/mainPage/page 1/icon3.svg" alt="menuSite"></label>
+                    <div class="menuSite">
+                        <h2 class="menuSite__heading">MENU</h2>
+                        <h3 class="menuSite__subheading">MAN</h3>
+                        <ul class="menuSite__ul">
+                            <li class="menuSite__link"><a href="#">Accessories</a></li>
+                            <li class="menuSite__link"><a href="#">Bags</a></li>
+                            <li class="menuSite__link"><a href="#">Denim</a></li>
+                            <li class="menuSite__link"><a href="#">T-shirts</a></li>
+                        </ul>
+                        <h3 class="menuSite__subheading">WOMAN</h3>
+                        <ul class="menuSite__ul">
+                            <li class="menuSite__link"><a href="#">Accessories</a></li>
+                            <li class="menuSite__link"><a href="#">Bags</a></li>
+                            <li class="menuSite__link"><a href="#">Denim</a></li>
+                            <li class="menuSite__link"><a href="#">T-shirts</a></li>
+                        </ul>
+                        <h3 class="menuSite__subheading">KIDS</h3>
+                        <ul class="menuSite__ul">
+                            <li class="menuSite__link"><a href="#">Accessories</a></li>
+                            <li class="menuSite__link"><a href="#">Bags</a></li>
+                            <li class="menuSite__link"><a href="#">Denim</a></li>
+                            <li class="menuSite__link"><a href="#">T-shirts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navigation__contRightSide2">
+                    <button><img src="img/mainPage/page%201/icon4.svg" alt="icon4"></button>
+                </div>
+                <div id="cart-modal" class="navigation__contRightSide3">
+                    <button><img src="img/mainPage/page%201/icon5.svg" alt="icon5">
+                        <div class="cart-modal-content">
+                            <span class="close-modal">&times;</span>
+                            <ul class="cart">
+                            </ul>
+                        </div></button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container capProduct">
+                <h1>NEW ARRIVALS</h1>
+                <h2>HOME/MEN/NEW ARRIVALS</h2>
+            </div>
+            <div class="container slideProduct">
+                <button class="slideProduct__buttonSlide"><img src="img/productPage/Button/Left.png" alt="leftButton"></button>
+                <img src="img/productPage/Women.png" alt="Women">
+                <button class="slideProduct__buttonSlide"><img src="img/productPage/Button/Right.png" alt="rightButton"></button>
+            </div>
+            <div class="container mainPageProduct">
+                <div class="mainPageProduct__spaceProduct"></div>
+                <div class="mainPageProduct__infoProduct container">
+                    <h2>WOMEN COLLECTION</h2>
+                    <h1>MOSCHINO CHEAP AND CHIC</h1>
+                    <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
+                    <h4>$561</h4>
+                    <div class="button-container">
+                        <button class="filterButtonProduct">CHOOSE COLOR</button>
+                        <button class="filterButtonProduct">CHOOSE SIZE</button>
+                        <button class="filterButtonProduct">QUANTITY</button>
+                    </div>
+                    <button class="cartButtonProduct">Add to Cart</button>
+                </div>
+                <div class="cardList container"></div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <section>
+                    <div class="preFinalPart container">
+                        <div class="contentLeftSide preFinalPart__leftSide">
+                            <img src="img/mainPage/page%205/avatar.png" alt="avatar">
+                            <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+                        </div>
+                        <div class="contentRightSide preFinalPart__rightSide"><h2>SUBSCRIBE FOR OUR NEWSLETTER AND PROMOTION</h2>
+                            <form action="#" method="post">
+                                <input type="email" id="email" name="email" placeholder="   Enter Your Email" required>
+                                <button type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section>
+                    <div class="finalPart container">
+                        <p>© 2022  Brand  All Rights Reserved.</p>
+                        <button class="finalPart__icon1"><img src="img/mainPage/page%205/icon1.svg" alt="icon1"></button>
+                        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon2.svg" alt="icon2"></button>
+                        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon3.svg" alt="icon3"></button>
+                        <button class="finalPart__icon2"><img src="img/mainPage/page%205/icon4.svg" alt="icon4"></button>
+                    </div>
+                </section>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+        <script src="./data.js"></script>
+        <script src="productScript.js"></script>
+    </body>
+</html>

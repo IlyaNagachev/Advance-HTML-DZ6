@@ -1,0 +1,15 @@
+<svg width="31.450562" height="32.000000" viewBox="0 0 31.4506 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip190_1606">
+			<rect id="facebook-f-brands (3) 1" rx="-0.500000" width="8.932734" height="15.000000" transform="translate(11.426025 8.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<path id="Rectangle 14" d="M0 0L31.45 0L31.45 32L0 32L0 0Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	<rect id="facebook-f-brands (3) 1" rx="-0.500000" width="8.932734" height="15.000000" transform="translate(11.426025 8.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip190_1606)">
+		<path id="Vector" d="M19.08 16.28L19.5 13.61L16.89 13.61L16.89 11.88C16.89 11.15 17.25 10.44 18.42 10.44L19.61 10.44L19.61 8.17C19.61 8.17 18.53 8 17.5 8C15.35 8 13.94 9.27 13.94 11.58L13.94 13.61L11.54 13.61L11.54 16.28L13.94 16.28L13.94 22.72L16.89 22.72L16.89 16.28L19.08 16.28Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
